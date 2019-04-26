@@ -1,0 +1,94 @@
+<div id=D__ID>
+    <!--third html start -->
+    <div class="container mt-95 mb-3">
+        <div class="row">
+            <!-- form container start -->
+            <div class="col-12 col-lg-12 col-md-12 col-sm-12 mx-auto formbox">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- form start -->
+                        <form id="F__ID">
+                            <h3>Melatonin</h3>
+                            <!-- participant part for all tsak forms -------------------->
+                            <div id="participant_div__ID">
+                                <div class="form-group">
+                                    <fieldset class="subquestions">
+                                        <label><span class="">Participant</span>
+                                            <input type=text name="Participant" class=form-control id=Participant__ID
+                                                data-id="Participant" />
+                                        </label><br>
+                                        <label><span class="">Participant ID</span>
+                                            <input type=text name="Participant_uid" class=form-control readonly />
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <!-- form group -->
+                                    <div class="table-responsive bg-white">
+                                            <table class="table table-bordered">
+                                              <thead>
+                                                <tr>
+                                                  <th></th>
+                                                  <th>1</th>
+                                                  <th>2</th>
+                                                  <th>3</th>
+                                                  <th>4</th>
+                                                  <th>5</th>
+                                                  <th>6</th>
+                                                  <th>7</th>
+                                                  <th>8</th>
+                                                  <th>9</th>
+                                                  <th>10</th>
+                                                  <th>11</th>
+                                                  <th>12</th>
+                                                  <th>CR</th>
+                                                  <th>MC</th>
+                                                  <th>30-min</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Bowl</td>
+                                                  <td><input class="form-control form-control-sm" type="number" name="w1-1"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-2"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-3"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-4"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-5"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-6"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-7"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-8"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-9"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-10"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-11"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-12"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-cr"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-mc"></td>
+                                                  <td><input type="number" min=1 max=12 name="w1-30m"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        
+                            <button type="submit" id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function F__ID(){
+            //-------------------------------------
+            VmInclude:'__COMPONENT__/f/form.01.js'
+            VmInclude:__CURRENT_PATH__/shared-cleverlights-form.js
+            //-------------------------------------
+        }
+    </script>
+    <style>
+        #D__ID .mt-95 {
+        max-width:600px;
+    }
+        VmInclude:__CURRENT_PATH__/wappsystem-form.css
+    </style>
+</div>

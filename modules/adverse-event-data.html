@@ -1,15 +1,16 @@
+
 <section>
-    VmInclude:__CURRENT_PATH__/../../grid.v1h.html
+    VmInclude:__CURRENT_PATH__/grid.v1h.html
 </section>
 <script>
     function F__ID(){
         //-------------------------------------
         VmInclude:__COMPONENT__/g/grid.01.js
-        VmInclude:__CURRENT_PATH__/../../shared-cleverlights-data.js
+        VmInclude:__CURRENT_PATH__/shared-cleverlights-data.js
         //-------------------------------------
-        $('#title__ID').text('N-Back 1')
+        $('#title__ID').text('Adverse Event')
         //-------------------------------------
-		var fields="NBACK,NGTA,NGRT,NTCR,NTIC,NMIS,NNO,NRT,NAC";
+        var fields="Adverse_Event,Onset_Date,Onset_Time,Resolution_Date,Resolution_Time,Was AE Serious?|Serious_AE,Frequency,Intensity,Realtionship,Study_Agent_Action,Treatment_Required,Other_Treatment,Outcome";
         m.fields="_Form,_Status,_Notes,_Participant_ID,Participant,"+fields+",Submit_date,Submitted_by,_Delete";
         //-------------------------------------
     }
