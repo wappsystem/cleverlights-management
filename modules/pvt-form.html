@@ -14,8 +14,7 @@
                                 <div class="form-group">
                                     <fieldset class="subquestions">
                                         <label><span class="">Participant</span>
-                                            <input type=text name="Participant" class=form-control id=Participant__ID
-                                                data-id="Participant" />
+                                            <input type=text name="Participant" class=form-control id=Participant__ID data-id="Participant" />
                                         </label><br>
                                         <label><span class="">Participant ID</span>
                                             <input type=text name="Participant_uid" class=form-control readonly />
@@ -24,15 +23,15 @@
                                 </div>
                             </div>
                             <!-- form group -->
+                            <hr>
                             <div class="row px-4">
                                 <div class='col'>
-                                    <label><span class="">Select a file</span></label>
-                                    <div class="form-control">
-                                        <u style='cursor:pointer' id=link_File_Name__ID></u>
-                                        <br>
-                                        <input type="file" name=File_Name style="margin-top:6px" /> <button
-                                            type="button" id=x_File_Name__ID>Remove</button>
-                                    </div>
+                                   <span>Select a File</span>
+                                   <div class="form-control">
+                                       <u style='cursor:pointer' id=link_File_Name__ID></u>
+                                       <br>
+                                       <input type="file" name=File_Name style="margin-top:6px" /> &nbsp&nbsp&nbsp <button type="button" id=x_File_Name__ID>Remove</button>
+                                   </div>
                                 </div>
                             </div>
                             <hr>
@@ -322,18 +321,19 @@
         //---------------------------------------------
         function F__ID() {
             //-------------------------------------
+			VmInclude:'__COMPONENT__/f/form.01.js'
+            VmInclude:__CURRENT_PATH__/shared-cleverlights-form.js
             //-------------------------------------
-            VmInclude: __COMPONENT__/f/form.01.js
-            VmInclude: __CURRENT_PATH__/shared-cleverlights-form.js
-            //-------------------------------------
-            m.old_load = m.load;
-            m.load = function () {
-                m.old_load();
+            var load2=m.load;
+            m.load=function(){
+                load2();
+                if(m.input.readonly!=undefined) $('#submit__ID').hide();
+                //render_file_field_v2(m.input.record,'__ID',$('#File_Name__ID'));
                 m.set_file_link("File_Name");
             }
             //-------------------------------------
-            $('input[name=File_Name]').on('change', function (evt) {
-                if (this.files.length == 1) {
+            $('#F__ID input[name=File_Name]').on('change',function(evt){
+                if(this.files.length==1){
                     file_process(this.files[0])
                 }
             })

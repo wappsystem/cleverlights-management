@@ -23,6 +23,10 @@
         "cl-adverse-event-data":                {url:"$A/modules/adverse-event-data.html",Table:"cl-adverse-event",form_module:"cl-adverse-event-form"},
         "cl-adverse-event-form":                {url:"$A/modules/adverse-event-form.html",Table:"cl-adverse-event"},
 
+        "cl-s-date-data":		                {url:"$A/modules/date-data.html",Table:"cl-s-date",form_module:"cl-s-date-form"},
+        "cl-s-date-form":		                {url:"$A/modules/date-form.html",Table:"cl-s-date"},
+        "cl-s-actigraphy-data":		            {url:"$A/modules/actigraphy-data.html",Table:"cl-s-actigraphy",form_module:"cl-s-actigraphy-form"},
+        "cl-s-actigraphy-form":		            {url:"$A/modules/actigraphy-form.html",Table:"cl-s-actigraphy"},
         "cl-m-ethnicity-data":		            {url:"$A/modules/ethnicity-data.html",Table:"cl-m-ethnicity",form_module:"cl-m-ethnicity-form"},
         "cl-m-ethnicity-form":		            {url:"$A/modules/ethnicity-form.html",Table:"cl-m-ethnicity"},
         "cl-m-lifestyle-data":		            {url:"$A/modules/lifestyle-data.html",Table:"cl-m-lifestyle",form_module:"cl-m-lifestyle-form"},
