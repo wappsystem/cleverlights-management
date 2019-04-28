@@ -27,6 +27,8 @@
         "cl-s-date-form":		                {url:"$A/modules/date-form.html",Table:"cl-s-date"},
         "cl-s-actigraphy-data":		            {url:"$A/modules/actigraphy-data.html",Table:"cl-s-actigraphy",form_module:"cl-s-actigraphy-form"},
         "cl-s-actigraphy-form":		            {url:"$A/modules/actigraphy-form.html",Table:"cl-s-actigraphy"},
+        "cl-s-psg300-data":		            {url:"$A/modules/psg300-data.html",Table:"cl-s-psg300",form_module:"cl-s-psg300-form"},
+        "cl-s-psg300-form":		            {url:"$A/modules/psg300-form.html",Table:"cl-s-psg300"},
         "cl-m-ethnicity-data":		            {url:"$A/modules/ethnicity-data.html",Table:"cl-m-ethnicity",form_module:"cl-m-ethnicity-form"},
         "cl-m-ethnicity-form":		            {url:"$A/modules/ethnicity-form.html",Table:"cl-m-ethnicity"},
         "cl-m-lifestyle-data":		            {url:"$A/modules/lifestyle-data.html",Table:"cl-m-lifestyle",form_module:"cl-m-lifestyle-form"},
