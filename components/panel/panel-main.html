@@ -118,9 +118,24 @@
         		}
         	}
         	//--------------------------------------------------------
+			$('#ul-screening').on('click',function(){
+				alert(1)
+            $('#ul-screening ul li').hide();
+         });
         }
     </script>
     <style>
+		ul li {
+			display: none;
+		}
+		.ul-show:hover {
+			cursor: pointer;
+		}
+		.ul-show:hover ul li {
+			display: block;
+			
+		}
+
         #toolbar__ID{
 			font-family: 'Roboto Slab';
     		background-color:#ccc;
