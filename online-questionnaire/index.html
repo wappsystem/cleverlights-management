@@ -15,18 +15,17 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.2.1.min.js"></script>
     <script boot-up>
         //------------------------------------
-        $vm={};$vm.ver=[0.58,0.58]; //increase ver[0] if any module changed, increase ver[1] if vm.js changed
+        $vm={};$vm.ver=[0.14,0.14]; //increase ver[0] if any module changed, increase ver[1] if vm.js changed
         //------------------------------------
         //app urls
-        $vm.public_url_$A='https://spardac.wappsystem.com.au';
-        $vm.local_url_$A='http://127.0.0.1:8000/wappsystem/spardacmdb';
-        $vm.public_url_$B='https://modules.wappsystem.com.au';
-        $vm.local_url_$B='http://127.0.0.1:8000/wappsystem/modules';
+        //$vm.public_url_$A='https://cleverlights-management.wappsystem.com.au';
+        $vm.public_url_$A='https://wappsystem.github.io/cleverlights-management/';        
+        $vm.local_url_$A='http://127.0.0.1:8000/wappsystem/cleverlights-management';
         //------------------------------------
         //where are your start modules
         $vm.start_modules=[
             "$A/online-questionnaire/app.html",
-            "$B/mdb/f/frame.html",
+            "$A/online-questionnaire/frame.html",
         ]
         //------------------------------------
         //modules used in this app
@@ -35,8 +34,8 @@
         //------------------------------------
         //where are your all other modules
         $vm.app_modules=[
-            "$A/online-questionnaire/components/spardac-login.js",
-            "$A/components/spardac.js",
+            "$A/online-questionnaire/components/cleverlights-login.js",
+            "$A/components/cleverlights.js",
         ]
         //------------------------------------
         
