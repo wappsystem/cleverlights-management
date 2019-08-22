@@ -80,8 +80,9 @@
         			var $a=$(this);
 					N++;
         			var href=$a.attr('href');
-        			if(href!=undefined){
-        				check_count($a,N);
+					
+        			if(href!=undefined && $a.parent().parent().parent().css('display')=='block'){
+						check_count($a,N);
         			}
         		});
         	})
@@ -119,98 +120,6 @@
         			}
         		}
         	}
-        	//--------------------------------------------------------
-            $('#screen__ID').on('click',function(){
-				$('#screen_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d1_m__ID').on('click',function(){
-				$('#ses1_d1_m_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d1_pvt__ID').on('click',function(){
-				$('#ses1_d1_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d1_bl__ID').on('click',function(){
-				$('#ses1_d1_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d1_al__ID').on('click',function(){
-				$('#ses1_d1_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d2_pvt__ID').on('click',function(){
-				$('#ses1_d2_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d2_bl__ID').on('click',function(){
-				$('#ses1_d2_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d2_al__ID').on('click',function(){
-				$('#ses1_d2_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d3_pvt__ID').on('click',function(){
-				$('#ses1_d3_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d3_bl__ID').on('click',function(){
-				$('#ses1_d3_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d3_al__ID').on('click',function(){
-				$('#ses1_d3_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses1_d4__ID').on('click',function(){
-				$('#ses1_d4_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d1_pvt__ID').on('click',function(){
-				$('#ses2_d1_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d1_bl__ID').on('click',function(){
-				$('#ses2_d1_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d1_al__ID').on('click',function(){
-				$('#ses2_d1_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d2_pvt__ID').on('click',function(){
-				$('#ses2_d2_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d2_bl__ID').on('click',function(){
-				$('#ses2_d2_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d2_al__ID').on('click',function(){
-				$('#ses2_d2_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d3_pvt__ID').on('click',function(){
-				$('#ses2_d3_pvt_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d3_bl__ID').on('click',function(){
-				$('#ses2_d3_bl_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d3_al__ID').on('click',function(){
-				$('#ses2_d3_al_show__ID').toggle()
-			})
-        	//--------------------------------------------------------
-            $('#ses2_d4__ID').on('click',function(){
-				$('#ses2_d4_show__ID').toggle()
-			})
-			//--------------------------------------------------------
-            $('#unscheduled__ID').on('click',function(){
-				$('#unscheduled_show__ID').toggle()
-			})
         }
     </script>
     <style>
