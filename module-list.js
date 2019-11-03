@@ -298,15 +298,21 @@
 
         "cl-v2-d4-nt-ftt-data":		            {url:"$H/m/library/ftt-data.html",Table:"cl-v2-d4-nt-ftt",form_module:"cl-v2-d4-nt-ftt-form",task_name:"Lab Visit 1 Day 4 Neurocog Testing - FTT"},
         "cl-v2-d4-nt-ftt-form":		            {url:"$H/m/library/ftt-form.html",Table:"cl-v2-d4-nt-ftt",task_name:"FFT"},
+
+        "word-pairs-set1-evening":	    {url:"$H/m/word-pairs/set1-evening.html"},
+        "word-pairs-set2-evening":	    {url:"$H/m/word-pairs/set2-evening.html"},
+        "word-pairs-set1-morning":	    {url:"$H/m/word-pairs/set1-morning.html"},
+        "word-pairs-set2-morning":	    {url:"$H/m/word-pairs/set2-morning.html"},
+
    }
     for(p in modules){
         $vm.module_list[p]=modules[p];
         $vm.module_list[p].url=$vm.module_list[p].url.replace('$H',$vm.hosting_path);
     }
-    if(window.location.toString().indexOf('tb=demo')!=-1){
+//    if(window.location.toString().indexOf('tb=demo')!=-1){
         for(p in $vm.module_list){
             $vm.module_list[p].Table="demo-"+$vm.module_list[p].Table;
         }
-    }
+//    }
 
 })();
