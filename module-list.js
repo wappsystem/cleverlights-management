@@ -331,6 +331,14 @@
         "cl-v1-d3-sleep-scoring-form":		    {url:"$H/m/library/upload-file-form.html",Table:"cl-v1-d3-sleep-scoring",task_name:"PSG - Sleep Scoring"},
         "cl-v1-d3-edf-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-v1-d3-edf",form_module:"cl-v1-d3-edf-form",task_name:"Lab Visit 1 Day 3 HdEEG - PSG - EDF"},
         "cl-v1-d3-edf-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-v1-d3-edf",task_name:"PSG - EDF"},
+        "cl-v1-d3-nt-wp-data":		        {url:"$H/m/library/word-pair-task-paperwork-data.html",Table:"cl-v1-d3-nt-wp",form_module:"cl-v1-d3-nt-wp-form",task_name:"Lab Visit 1 Day 3 Word Pair - Data entry"},
+        "cl-v1-d3-nt-wp-form":		        {url:"$H/m/library/word-pair-task-paperwork-form.html",Table:"cl-v1-d3-nt-wp",task_name:"Word Pair - Data entry"},
+        "cl-v1-d4-nt-wp-data":		        {url:"$H/m/library/word-pair-task-paperwork-data.html",Table:"cl-v1-d4-nt-wp",form_module:"cl-v1-d4-nt-wp-form",task_name:"Lab Visit 1 Day 4 Word Pair - Data entry"},
+        "cl-v1-d4-nt-wp-form":		        {url:"$H/m/library/word-pair-task-paperwork-form.html",Table:"cl-v1-d4-nt-wp",task_name:"Word Pair - Data entry"},
+        "cl-v2-d3-nt-wp-data":		        {url:"$H/m/library/word-pair-task-paperwork-data.html",Table:"cl-v2-d3-nt-wp",form_module:"cl-v2-d3-nt-wp-form",task_name:"Lab Visit 2 Day 3 Word Pair - Data entry"},
+        "cl-v2-d3-nt-wp-form":		        {url:"$H/m/library/word-pair-task-paperwork-form.html",Table:"cl-v2-d3-nt-wp",task_name:"Word Pair - Data entry"},
+        "cl-v2-d4-nt-wp-data":		        {url:"$H/m/library/word-pair-task-paperwork-data.html",Table:"cl-v2-d4-nt-wp",form_module:"cl-v2-d4-nt-wp-form",task_name:"Lab Visit 2 Day 4 Word Pair - Data entry"},
+        "cl-v2-d4-nt-wp-form":		        {url:"$H/m/library/word-pair-task-paperwork-form.html",Table:"cl-v2-d4-nt-wp",task_name:"Word Pair - Data entry"},
     }
     for(p in modules){
         $vm.module_list[p]=modules[p];
