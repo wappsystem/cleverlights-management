@@ -23,6 +23,17 @@
                                     </fieldset>
                                 </div>
                             </div>
+                            <div class="row px-4">
+								<div class='col'>
+									<span>File</span>
+									<div class="form-control">
+										<u style='cursor:pointer' id=link_File_Name__ID></u>
+										<br>
+										<input type="file" name=File_Name style="margin-top:6px" /> &nbsp&nbsp&nbsp
+										<button type="button" id=x_File_Name__ID>Remove</button>
+									</div>
+								</div>
+							</div>
                             <!-- form group -->
                             <div class="form-group">
                                 <div class="questiongroup ">
@@ -47,13 +58,10 @@
             VmInclude: '__COMPONENT__/f/form.01.js'
             VmInclude: __CURRENT_PATH__/shared-form.js
             //-------------------------------------
-            $('#F__ID input[name=Height]').on('change', function () { cal(); })
-            $('#F__ID input[name=Weight]').on('change', function () { cal(); })
-            var cal = function () {
-                var h = $('#F__ID input[name=Height]').val() / 100;
-                var w = $('#F__ID input[name=Weight]').val();
-                var b = (w / (h * h)).toFixed(2);
-                $('#F__ID input[name=BMI]').val(b);
+            var load5=m.load;
+            m.load=function(){
+                load5();
+                m.set_file_link("File_Name");
             }
             //-------------------------------------
 
