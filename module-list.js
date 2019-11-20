@@ -44,6 +44,8 @@
         "cl-s-sleep-scoring-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-s-sleep-scoring",task_name:"Screening - PSG Sleep Scoring"},
         "cl-s-edf-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-s-edf",form_module:"cl-s-edf-form",task_name:"Screening - PSG EDF"},
         "cl-s-edf-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-s-edf",task_name:"Screening - PSG EDF"},
+        "cl-s-wristox-data":		                {url:"$H/m/library/wristox-data.html",Table:"cl-s-wristox",form_module:"cl-s-wristox-form",task_name:"Baseline - WristOx"},
+        "cl-s-wristox-form":		                {url:"$H/m/library/wristox-form.html",Table:"cl-s-wristox",task_name:"WristOx Baseline"},
         "cl-bl-date-data":		                {url:"$H/m/library/date-data.html",Table:"cl-bl-date",form_module:"cl-bl-date-form",task_name:"Baseline - Date"},
         "cl-bl-date-form":		                {url:"$H/m/library/date-form.html",Table:"cl-bl-date"},
         "cl-bl-actigraphy-data":		            {url:"$H/m/library/actigraphy-data.html",Table:"cl-bl-actigraphy",form_module:"cl-bl-actigraphy-form",task_name:"Baseline - Actigraphy"},
