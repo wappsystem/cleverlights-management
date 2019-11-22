@@ -9,7 +9,7 @@
         //-------------------------------------
         $('#title__ID').text('Actiwatch Extraction');
           //-------------------------------------
-          var fields="File_Name,Serial_No,Recording_Date,Recording_Time,Artifacts_Duration,Desat_Event,Time_Desat_Event,ODI,Pulse_Event,Time_Pulse_Event,Pulse_Index,Desat_Below_88,SaO2_Min,SaO2_Max";
+          var fields="File_Name,File_Name2,Serial_No,Recording_Date,Recording_Time,Artifacts_Duration,Desat_Event,Time_Desat_Event,ODI,Pulse_Event,Time_Pulse_Event,Pulse_Index,Desat_Below_88,SaO2_Min,SaO2_Max";
           m.fields="_Form,_Lock,_Status,_Notes,_Participant_ID,Participant,"+fields+",Submit_date,Submitted_by,_Delete";
           //-------------------------------------
           var cell_render=m.cell_render;
@@ -17,6 +17,7 @@
                 cell_render(records,I,field,td);
                 switch(field){
                     case 'File_Name':
+                    case 'File_Name2':
                         m.set_file_link(records,I,field,td)
                         break;
                 }
