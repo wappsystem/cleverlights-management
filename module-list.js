@@ -180,7 +180,7 @@
         "cl-v1-d1-date-form":		                {url:"$H/m/library/date-form.html",Table:"cl-v1-d1-date"},
 
         "cl-v1-d1-nt-bsrt-data":		        {url:"$H/m/library/bsrt-data.html",Table:"cl-v1-d1-nt-bsrt",form_module:"cl-v1-d1-nt-bsrt-form",task_name:"Lab Visit 1 Day 1 Neurocog Testing - BSRT Set 1"},
-        "cl-v1-d1-nt-bsrt-form":		        {url:"$H/m/library/bsrt-form.html",Table:"cl-v1-d1-bl-bsrt"},
+        "cl-v1-d1-nt-bsrt-form":		        {url:"$H/m/library/bsrt-form.html",Table:"cl-v1-d1-nt-bsrt"},
         "cl-v1-d1-nt-lct-data":		            {url:"$H/m/neurocog/letter-cancellation-data.html",Table:"cl-v1-d1-nt-lct",form_module:"cl-v1-d1-nt-lct-form",task_name:"Lab Visit 1 Day 1 Neurocog Testing - LCT"},
         "cl-v1-d1-nt-lct-form":		            {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"cl-v1-d1-nt-lct",task_name:"LCT"},
         "cl-v1-d1-nt-nback2-data":		        {url:"$H/m/neurocog/nback2-data.html",Table:"cl-v1-d1-nt-nback2",form_module:"cl-v1-d1-nt-nback2-form",task_name:"Lab Visit 1 Day 1 Neurocog Testing - 2-Back"},
@@ -209,7 +209,7 @@
         "cl-v1-d3-ksd1-form":		            {url:"$H/m/library/ksd-form.html",Table:"cl-v1-d3-ksd1",task_name:"Karolinska Sleep Diary"},
 
         "cl-v1-d3-nt-bsrt2-data":		        {url:"$H/m/library/bsrt-data.html",Table:"cl-v1-d3-nt-bsrt",form_module:"cl-v1-d3-nt-bsrt2-form",task_name:"Lab Visit 1 Day 3 Neurocog Testing - BSRT Set 2"},
-        "cl-v1-d3-nt-bsrt2-form":		        {url:"$H/m/library/bsrt2-form.html",Table:"cl-v1-d3-bl-bsrt"},
+        "cl-v1-d3-nt-bsrt2-form":		        {url:"$H/m/library/bsrt2-form.html",Table:"cl-v1-d3-nt-bsrt"},
         "cl-v1-d3-nt-lct-data":		            {url:"$H/m/neurocog/letter-cancellation-data.html",Table:"cl-v1-d3-nt-lct",form_module:"cl-v1-d3-nt-lct-form",task_name:"Lab Visit 1 Day 3 Neurocog Testing - LCT"},
         "cl-v1-d3-nt-lct-form":		            {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"cl-v1-d3-nt-lct",task_name:"LCT"},
         "cl-v1-d3-nt-nback2-data":		        {url:"$H/m/neurocog/nback2-data.html",Table:"cl-v1-d3-nt-nback2",form_module:"cl-v1-d3-nt-nback2-form",task_name:"Lab Visit 1 Day 3 Neurocog Testing - 2-Back"},
@@ -324,7 +324,7 @@
         "cl-v2-d1-date-form":		                {url:"$H/m/library/date-form.html",Table:"cl-v2-d1-date"},
 
         "cl-v2-d1-nt-bsrt2-data":		        {url:"$H/m/library/bsrt-data.html",Table:"cl-v2-d1-nt-bsrt",form_module:"cl-v2-d1-nt-bsrt2-form",task_name:"Lab Visit 2 Day 1 Neurocog Testing Set 2 - BSRT"},
-        "cl-v2-d1-nt-bsrt2-form":		        {url:"$H/m/library/bsrt2-form.html",Table:"cl-v2-d1-bl-bsrt"},
+        "cl-v2-d1-nt-bsrt2-form":		        {url:"$H/m/library/bsrt2-form.html",Table:"cl-v2-d1-nt-bsrt"},
         "cl-v2-d1-nt-lct-data":		            {url:"$H/m/neurocog/letter-cancellation-data.html",Table:"cl-v2-d1-nt-lct",form_module:"cl-v2-d1-nt-lct-form",task_name:"Lab Visit 2 Day 1 Neurocog Testing - LCT"},
         "cl-v2-d1-nt-lct-form":		            {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"cl-v2-d1-nt-lct",task_name:"LCT"},
         "cl-v2-d1-nt-nback2-data":		        {url:"$H/m/neurocog/nback2-data.html",Table:"cl-v2-d1-nt-nback2",form_module:"cl-v2-d1-nt-nback2-form",task_name:"Lab Visit 2 Day 1 Neurocog Testing - 2-Back"},
@@ -353,7 +353,7 @@
         "cl-v2-d3-ksd1-form":		            {url:"$H/m/library/ksd-form.html",Table:"cl-v2-d3-ksd1",task_name:"Karolinska Sleep Diary"},
 
         "cl-v2-d3-nt-bsrt-data":		        {url:"$H/m/library/bsrt-data.html",Table:"cl-v2-d3-nt-bsrt",form_module:"cl-v2-d3-nt-bsrt-form",task_name:"Lab Visit 2 Day 3 Neurocog Testing Set 1 - BSRT"},
-        "cl-v2-d3-nt-bsrt-form":		        {url:"$H/m/library/bsrt-form.html",Table:"cl-v2-d3-bl-bsrt"},
+        "cl-v2-d3-nt-bsrt-form":		        {url:"$H/m/library/bsrt-form.html",Table:"cl-v2-d3-nt-bsrt"},
         "cl-v2-d3-nt-lct-data":		            {url:"$H/m/neurocog/letter-cancellation-data.html",Table:"cl-v2-d3-nt-lct",form_module:"cl-v2-d3-nt-lct-form",task_name:"Lab Visit 2 Day 3 Neurocog Testing - LCT"},
         "cl-v2-d3-nt-lct-form":		            {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"cl-v2-d3-nt-lct",task_name:"LCT"},
         "cl-v2-d3-nt-nback2-data":		        {url:"$H/m/neurocog/nback2-data.html",Table:"cl-v2-d3-nt-nback2",form_module:"cl-v2-d3-nt-nback2-form",task_name:"Lab Visit 2 Day 3 Neurocog Testing - 2-Back"},
