@@ -25,7 +25,11 @@
         "cl-adverse-event-form":                {url:"$H/m/library/adverse-event-form.html",Table:"cl-adverse-event"},
         "cl-medical-history-data":                {url:"$H/m/library/medical-history-data.html",Table:"cl-medical-history",form_module:"cl-medical-history-form",task_name:"Medical History"},
         "cl-medical-history-form":                {url:"$H/m/library/medical-history-form.html",Table:"cl-medical-history"},
+        "cl-eligibility-confirmation-data":                {url:"$H/m/library/eligibility-confirmation-data.html",Table:"cl-eligibility-confirmation",form_module:"cl-eligibility-confirmation-form",task_name:"eligibility Confirmation"},
+        "cl-eligibility-confirmation-form":                {url:"$H/m/library/eligibility-confirmation-form.html",Table:"cl-eligibility-confirmation"},
 
+        "cl-s-telephone-screening-data":		                {url:"$H/m/library/telephone-screening-data.html",Table:"cl-s-telephone-screening",form_module:"cl-s-telephone-screening-form",task_name:"Screening - Telephone screening"},
+        "cl-s-telephone-screening-form":		                {url:"$H/m/library/telephone-screening-form.html",Table:"cl-s-telephone-screening"},
         "cl-s-date-data":		                {url:"$H/m/library/date-data.html",Table:"cl-s-date",form_module:"cl-s-date-form",task_name:"Screening - Date"},
         "cl-s-date-form":		                {url:"$H/m/library/date-form.html",Table:"cl-s-date"},
         "cl-s-anthropometry-data":		            {url:"$H/m/library/anthropometry-data.html",Table:"cl-s-anthropometry",form_module:"cl-s-anthropometry-form",task_name:"Screening - Anthropometry"},

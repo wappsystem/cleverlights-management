@@ -1,0 +1,19 @@
+<section>
+  VmInclude:__CURRENT_PATH__/grid.v1h.html
+</section>
+<script>
+  function F__ID(){
+      //-------------------------------------
+      VmInclude:__COMPONENT__/g/grid.01.js
+      VmInclude:__CURRENT_PATH__/shared-data.js
+      //-------------------------------------
+      $('#title__ID').text('Eligibility Confirmation')
+      //-------------------------------------
+      var fields="inclusion_1,inclusion_2,inclusion_3,inclusion_4,inclusion_5,inclusion_6,exclusion_1,exclusion_2,exclusion_3,exclusion_4,exclusion_5,exclusion_6,exclusion_7,eligible";
+      m.fields="_Form,_Lock,_Status,_Notes,_Participant_ID,Participant,"+fields+",Submit_date,Submitted_by,_Delete";
+      //-------------------------------------
+  }
+</script>
+<style>
+  VmInclude:__COMPONENT__/g/grid.01.css
+</style>
