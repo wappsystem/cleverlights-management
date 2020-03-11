@@ -19,6 +19,8 @@
 
         "cl-randomisation-table-data":		    {url:"$H/m/library/randomisation-table-data.html",Table:"cl-randomisation-table",form_module:"cl-randomisation-table-form"},
         "cl-randomisation-table-form":		    {url:"$H/m/library/randomisation-table-form.html",Table:"cl-randomisation-table"},
+        "cl-randomisation-upload-data":		    {url:"$H/m/library/randomisation-upload-data.html",Table:"cl-randomisation-upload",form_module:"cl-randomisation-upload-form",task_name:"Randomisation Document"},
+        "cl-randomisation-upload-form":		    {url:"$H/m/library/randomisation-upload-form.html",Table:"cl-randomisation-upload",task_name:"Randomisation Document"},
         "cl-concom-medication-data":            {url:"$H/m/library/concom-medication-data.html",Table:"cl-concom-medication",form_module:"cl-concom-medication-form",task_name:"Concom Medication"},
         "cl-concom-medication-form":            {url:"$H/m/library/concom-medication-form.html",Table:"cl-concom-medication"},
         "cl-adverse-event-data":                {url:"$H/m/library/adverse-event-data.html",Table:"cl-adverse-event",form_module:"cl-adverse-event-form",task_name:"Adverse Event"},
