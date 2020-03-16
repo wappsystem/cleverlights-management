@@ -99,7 +99,7 @@
                                <h4>Are you a woman?</h4>
                                 <fieldset class="subquestions">
                                     <label class="radiobuttons">
-                                        <input type="radio" name="woman" value="1" required>
+                                        <input type="radio" name="woman" value="1" >
                                         <span class="checkmark"></span> Yes</label><br>
                                     <label class="radiobuttons">
                                       <input type="radio" name="woman" value="0">
@@ -113,7 +113,7 @@
                                 <h4>2. Have your menstrual periods stopped because you reached menopause or had your ovaries removed?</h4>
                                 <fieldset class="subquestions">
                                     <label class="radiobuttons">
-                                        <input type="radio" name="menstral_stop" value="1" required>
+                                        <input type="radio" name="menstral_stop" value="1" >
                                         <span class="checkmark"></span> Yes</label><br>
                                     <label class="radiobuttons">
                                     <input type="radio" name="menstral_stop" value="0">
@@ -135,7 +135,7 @@
                             <h4>3. Have you ever had a hysterectomy?</h4>
                                 <fieldset class="subquestions">
                                     <label class="radiobuttons">
-                                        <input type="radio" name="hysterectomy" value="1" required>
+                                        <input type="radio" name="hysterectomy" value="1" >
                                         <span class="checkmark"></span> Yes</label><br>
                                     <label class="radiobuttons">
                                     <input type="radio" name="hysterectomy" value="0">
@@ -157,7 +157,7 @@
                             <h4>4. Are you currently pregnant, breastfeeding, or planning to become pregnant?</h4>
                             <fieldset class="subquestions">
                                 <label class="radiobuttons">
-                                    <input type="radio" name="pregnancy" value="1" required>
+                                    <input type="radio" name="pregnancy" value="1" >
                                     <span class="checkmark"></span> Yes</label><br>
                                 <label class="radiobuttons">
                                     <input type="radio" name="pregnancy" value="0">
@@ -170,7 +170,7 @@
                             <h4>5. Have you ever taken hormone replacement therapy?</h4>
                             <fieldset class="subquestions">
                                 <label class="radiobuttons">
-                                    <input type="radio" name="hrt" value="1" required>
+                                    <input type="radio" name="hrt" value="1" >
                                     <span class="checkmark"></span> Yes</label><br>
                                 <label class="radiobuttons">
                                     <input type="radio" name="hrt" value="0">
@@ -185,7 +185,7 @@
                                         </label>
                                         <h4>Are you still taking hormone replacement therapy?</h4>
                                         <label class="radiobuttons">
-                                            <input type="radio" name="hrt_current" value="1" required>
+                                            <input type="radio" name="hrt_current" value="1" >
                                             <span class="checkmark"></span> Yes</label><br>
                                         <label class="radiobuttons">
                                         <input type="radio" name="hrt_current" value="0">
@@ -199,7 +199,7 @@
                             <h4>6. How long is your current menstrual cycle?</h4>
                             <fieldset class="subquestions">
                                 <label>
-                                    <input type=number name=cycle_lenght class=form-control min=0 max=999 required/>
+                                    <input type=number name=cycle_lenght class=form-control min=0 max=999 />
                                 </label>
                                 <label>
                                     <span>&nbsp;days
@@ -212,7 +212,7 @@
                                     </span>
                                 </label>
                                 <label class="radiobuttons">
-                                    <input type="radio" name="cycle_consistent" value="1" required>
+                                    <input type="radio" name="cycle_consistent" value="1" >
                                     <span class="checkmark"></span> Yes</label><br>
                                 <label class="radiobuttons">
                                     <input type="radio" name="cycle_consistent" value="0">
@@ -245,7 +245,7 @@
                             <h4>7. When did your last period begin?</h4>
                                 <fieldset class="subquestions">
                                     <label>
-                                        <input type=date name=last_period_start class=form-control required/>
+                                        <input type=date name=last_period_start class=form-control />
                                     </label>
                                 </fieldset>
                         </div>
@@ -255,7 +255,7 @@
                                 <h4>8. When did it finish?</h4>
                                 <fieldset class="subquestions">
                                     <label>
-                                        <input type=date name=last_period_end class=form-control required/>
+                                        <input type=date name=last_period_end class=form-control />
                                     </label>
                                 </fieldset>
                             </div>
@@ -340,6 +340,7 @@
                 if($("input[name='loss_consciousness']").is(":checked")==true ){$("input[name='loss_consciousness_age']").prop('required', true);$("input[name='loss_consciousness_specify']").prop('required', true);$("#loss_consciousness_input__ID").show();} else {$("input[name='loss_consciousness_age']").prop('required', false);$("input[name='loss_consciousness_specify']").prop('required', false);$("#loss_consciousness_input__ID").hide();}
                 if($("input[name='other_surgery']").is(":checked")==true ){$("input[name='other_surgery_age']").prop('required', true);$("input[name='other_surgery_specify']").prop('required', true);$("#other_surgery_input__ID").show();} else {$("input[name='other_surgery_age']").prop('required', false);$("input[name='other_surgery_specify']").prop('required', false);$("#other_surgery_input__ID").hide();}
                 if($("input[name='other_medical']").is(":checked")==true ){$("input[name='other_medical_age']").prop('required', true);$("input[name='other_medical_specify']").prop('required', true);$("#other_medical_input__ID").show();} else {$("input[name='other_medical_age']").prop('required', false);$("input[name='other_medical_specify']").prop('required', false);$("#other_medical_input__ID").hide();}
+                $('#women__ID').hide();                
                 if($("input[name='woman']:checked").val()=='1' ){
                     $('#woman_only__ID').show();
                     $("input[name='menstral_stop']").prop('required', true)
