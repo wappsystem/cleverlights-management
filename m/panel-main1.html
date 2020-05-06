@@ -28,7 +28,7 @@
 					<br>				
 					</div>
         	</div>
-        	VmInclude:__CURRENT_PATH__/panel-tasks.html
+        	VmInclude:__CURRENT_PATH__/panel-tasks1.html
         </section>
     </div>
     <script>
@@ -40,6 +40,7 @@
 				if(window.location.toString().indexOf('tb=demo')!=-1) { //|| $vm.module_list[$vm.vm['__ID'].name].Table.indexOf('demo')!=-1){
 					$('#D__ID').css('background-image','url("m/demo.png")')
 				}
+				hide_all();
             }
             //--------------------------------------------------------
             $('#panel__ID a').on('click',function(e){
@@ -129,7 +130,28 @@
         			}
         		}
         	}
+			//--------------------------------------------------------
+    
+			var hide_all=function(){
+				$('#lab_visit_1_show__ID').hide()
+				$('#lab_visit_2_show__ID').hide()
+				$('#lab_visit_1__ID').css('color','#555')
+				$('#lab_visit_2__ID').css('color','#555')
+			}
+			//--------------------------------------------------------
+            $('#lab_visit_1__ID').on('click',function(){
+				$('#lab_visit_1_show__ID').show()
+				$('#lab_visit_1__ID').css('color','red')
+				$('#lab_visit_2_show__ID').hide()
+				$('#lab_visit_2__ID').css('color','#555')
+			})
         	//--------------------------------------------------------
+            $('#lab_visit_2__ID').on('click',function(){
+				$('#lab_visit_2_show__ID').show()
+				$('#lab_visit_2__ID').css('color','red')
+				$('#lab_visit_1_show__ID').hide()
+				$('#lab_visit_1__ID').css('color','#555')
+			})
         }
     </script>
     <style>

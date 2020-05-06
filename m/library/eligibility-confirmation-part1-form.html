@@ -1,0 +1,121 @@
+<div id=D__ID>
+    <!--third html start -->
+    <div class="container mt-95 mb-3">
+      <div class="row" >
+        <!-- form container start -->
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12 mx-auto formbox">
+          <div class="row">
+            <div class="col-12">
+              <!-- form start -->
+              <form id="F__ID">
+                 <h3>Eligibility Confirmation</h3>
+                 <!-- participant part for all tsak forms -------------------->
+                 <div id="participant_div__ID">
+                     <div class="form-group">
+                        <fieldset class="subquestions">
+                            <label ><span class="">Participant</span>
+                                <input type=text name="Participant" class=form-control id=Participant__ID data-id="Participant" />
+                            </label><br>
+                            <label ><span class="">Participant ID</span>
+                                <input type=text name="Participant_uid" class=form-control readonly/>
+                            </label>
+                         </fieldset>
+                     </div>
+                 </div>
+                 <!-- form group -->
+                 <div class="form-group">
+                    <h4>Date</h4>
+                    <div class="questiongroup ">
+                      <fieldset class="subquestions">
+                        <label><span class="">Date</span>
+                          <input type="date" name="date" class=form-control />
+                        </label>
+                      </fieldset>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                     <h4>Inclusion Criteria</h4>
+     				<div class="questiongroup">
+                         <fieldset>
+                             <label class="checkboxes">
+                               <input type="checkbox" name="inclusion_1">
+                               <span class="check_checkmark"></span> 1. Able to give informed written consent</label><br>
+                             <label class="checkboxes">
+                               <input type="checkbox" name="inclusion_2">
+                               <span class="check_checkmark"></span> 2. Fluent English speaker</label><br>
+                             <label class="checkboxes">
+                               <input type="checkbox" name="inclusion_3">
+                               <span class="check_checkmark"></span> 3. Older than 50 years</label><br>
+                             <label class="checkboxes">
+                         </fieldset>
+                    </div>
+     		     </div>
+                  <div class="form-group">
+                    <h4>Exclusion Criteria</h4>
+                    <div class="questiongroup">
+                        <fieldset>
+                            <label class="checkboxes">
+                              <input type="checkbox" name="exclusion_1">
+                              <span class="check_checkmark"></span> 1. Shift-workers</label><br>
+                            <label class="checkboxes">
+                              <input type="checkbox" name="exclusion_2">
+                              <span class="check_checkmark"></span> 2. Recent overseas travel (&lt;1month, &gt;2 time-zones)</label><br>
+                            <label class="checkboxes">
+                              <input type="checkbox" name="exclusion_3">
+                              <span class="check_checkmark"></span> 3. Pregnancy or lactation</label><br>
+                            <label class="checkboxes">
+                              <input type="checkbox" name="exclusion_4">
+                              <span class="check_checkmark"></span> 4. People highly dependent on medical care</label><br>
+                            <label class="checkboxes">
+                              <input type="checkbox" name="exclusion_5">
+                              <span class="check_checkmark"></span> 5. Major psychiatric illnesses</label><br>
+                              <label class="checkboxes">
+                                <input type="checkbox" name="exclusion_6">
+                                <span class="check_checkmark"></span> 6. Diagnosis of dementia</label><br>
+                        </fieldset>
+                    </div>
+                 </div>
+                 <div class="form-group">
+                    <h4>Eligible:</h4>
+                    <div class="questiongroup ">
+                      <fieldset class="subquestions">
+                        <label class="radiobuttons">
+                          <input type="radio" name="eligible" value="Yes">
+                          <span class="checkmark"></span>Yes</label><br>
+                        <label class="radiobuttons">
+                          <input type="radio" name="eligible" value="No">
+                          <span class="checkmark"></span>No</label><br>
+                      </fieldset>
+                    </div>
+                  </div> 
+                  <div class="form-group">
+                    <div class="questiongroup ">
+                      <fieldset class="subquestions">
+                        <label style="width:100%"><span class="">Comments</span>
+                          <textarea name="comments" class=form-control ></textarea>
+                        </label>
+                      </fieldset>
+                    </div>
+                  </div>
+                 <button type="submit" id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
+              </form>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        function F__ID(){
+            //-------------------------------------
+            VmInclude:__COMPONENT__/f/form.01.js
+            VmInclude:__CURRENT_PATH__/shared-form.js
+            //-------------------------------------
+       }
+    </script>
+    <style>
+        #D__ID .mt-95 {
+        max-width:600px;
+    }
+        VmInclude:__CURRENT_PATH__/wappsystem-form.css
+    </style>
+</div>

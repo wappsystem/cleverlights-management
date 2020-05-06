@@ -9,7 +9,7 @@
             //-------------------------------------
             $('#title__ID').text('Participants');            
             //-------------------------------------
-            var fields="_Participant_ID,Subject_ID,Randomisation_Number|I1,Screening_Number,Subject_Initials,Gender,DOB,_Data_Entry,_Setup,_Questionnaire,_Login_ID,_Password";
+            var fields="_Participant_ID,Subject_ID,Randomisation_Number|I1,Screening_Number,Subject_Initials,Gender,DOB,_Part_1,_Part_2,_Setup,_Questionnaire,_Login_ID,_Password";
             m.fields="_Form,"+fields+",Submit_date,Submitted_by,_Delete";
             //-------------------------------------
             m.cell_render=function(records,I,field,td,set_value,source){
@@ -23,10 +23,16 @@
                     case '_Participant_ID':
                         td.html(records[I].UID);
                         break;
-                    case '_Data_Entry':
+                    case '_Part_1':
                         td.html("<u style='cursor:pointer'>Data Entry</u>");
                         td.find('u').on('click',function(){
-    						$vm.load_module(m.child_panel,'',{record:records[I]});
+    						$vm.load_module(m.child_panel1,'',{record:records[I]});
+                        });
+                        break;
+                    case '_Part_2':
+                        td.html("<u style='cursor:pointer'>Data Entry</u>");
+                        td.find('u').on('click',function(){
+    						$vm.load_module(m.child_panel2,'',{record:records[I]});
                         });
                         break;
                     case '_Setup':
