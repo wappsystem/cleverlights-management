@@ -53,6 +53,8 @@
         "cl-p1-me-form":		            {url:"$H/m/library/me-form.html",Table:"cl-p1-me",task_name:"Morning Evening Questionnaire"},
         "cl-p1-ess-data":		            {url:"$H/m/library/ess-data.html",Table:"cl-p1-ess",form_module:"cl-p1-ess-form",task_name:"Part 1 - ESS"},
         "cl-p1-ess-form":		            {url:"$H/m/library/ess-form.html",Table:"cl-p1-ess",task_name:"ESS"},
+        "cl-p1-isi-data":		            {url:"$H/m/library/isi-data.html",Table:"cl-p1-isi",form_module:"cl-p1-isi-form",task_name:"Part 1 - ISI"},
+        "cl-p1-isi-form":		            {url:"$H/m/library/isi-form.html",Table:"cl-p1-isi",task_name:"ISI"},
         "cl-p1-psqi-data":		            {url:"$H/m/library/psqi-data.html",Table:"cl-p1-psqi",form_module:"cl-p1-psqi-form",task_name:"Part 1 - PSQI"},
         "cl-p1-psqi-form":		            {url:"$H/m/library/psqi-form.html",Table:"cl-p1-psqi",task_name:"PSQI"},
         "cl-p1-map-data":		            {url:"$H/m/library/map-data.html",Table:"cl-p1-map",form_module:"cl-p1-map-form",task_name:"Part 1 - MAP"},
