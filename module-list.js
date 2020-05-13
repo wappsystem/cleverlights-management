@@ -61,8 +61,8 @@
         "cl-p1-map-form":		            {url:"$H/m/library/map-form.html",Table:"cl-p1-map",task_name:"MAP"},
         "cl-p1-actigraphy-data":		            {url:"$H/m/library/actigraphy-data.html",Table:"cl-p1-actigraphy",form_module:"cl-p1-actigraphy-form",task_name:"Part 1 - Actigraphy"},
         "cl-p1-actigraphy-form":		            {url:"$H/m/library/actigraphy-form.html",Table:"cl-p1-actigraphy",task_name:"Actigraphy"},
-        "cl-p1-light-sensor-data":		            {url:"$H/m/library/light-sensor-data.html",Table:"cl-p1-light-sensor",form_module:"cl-p1-light-sensor-form",task_name:"Part 1 - Light Sensor"},
-        "cl-p1-light-sensor-form":		            {url:"$H/m/library/light-sensor-form.html",Table:"cl-p1-light-sensor",task_name:"Light Sensor"},
+        "cl-p1-light-sensor-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-p1-light-sensor",form_module:"cl-p1-light-sensor-form",task_name:"Part 1 - Light Sensor"},
+        "cl-p1-light-sensor-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-p1-light-sensor",task_name:"Light Sensor"},
         "cl-p1-telephone-screening-data":		     {url:"$H/m/library/telephone-screening-p1-data.html",Table:"cl-p1-telephone-screening",form_module:"cl-p1-telephone-screening-form",task_name:"Part 1 - Telephone screening"},
         "cl-p1-telephone-screening-form":		      {url:"$H/m/library/telephone-screening-p1-form.html",Table:"cl-p1-telephone-screening"},
 
