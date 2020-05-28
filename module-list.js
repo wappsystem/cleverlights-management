@@ -65,6 +65,8 @@
         "cl-p1-light-sensor-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-p1-light-sensor",task_name:"Light Sensor"},
         "cl-p1-telephone-screening-data":		     {url:"$H/m/library/telephone-screening-p1-data.html",Table:"cl-p1-telephone-screening",form_module:"cl-p1-telephone-screening-form",task_name:"Part 1 - Telephone screening"},
         "cl-p1-telephone-screening-form":		      {url:"$H/m/library/telephone-screening-p1-form.html",Table:"cl-p1-telephone-screening"},
+        "cl-p1-ksd-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-p1-ksd",form_module:"cl-p1-ksd-form",task_name:"Part ! - Karolinska Sleep Diary - File Upload"},
+        "cl-p1-ksd-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-p1-ksd",task_name:"Karolinska Sleep Diary - File Upload"},
 
         "cl-s-telephone-screening-data":		                {url:"$H/m/library/telephone-screening-data.html",Table:"cl-s-telephone-screening",form_module:"cl-s-telephone-screening-form",task_name:"Screening - Telephone screening"},
         "cl-s-telephone-screening-form":		                {url:"$H/m/library/telephone-screening-form.html",Table:"cl-s-telephone-screening"},
