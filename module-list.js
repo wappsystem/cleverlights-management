@@ -287,8 +287,8 @@
         "cl-v1-d4-hads-data":		                {url:"$H/m/library/hads-data.html",Table:"cl-v1-d4-hads",form_module:"cl-v1-d4-hads-form",task_name:"Lab Visit 1 Day 4 - HADS"},
         "cl-v1-d4-hads-form":		                {url:"$H/m/library/hads-form.html",Table:"cl-v1-d4-hads",task_name:"HADS"},
 
-        "cl-v1-d4-nt-ftt-data":		            {url:"$H/m/neurocog/finger-tapping6-after-data.html",Table:"cl-v1-d4-nt-ftt",form_module:"cl-v1-d4-nt-ftt-form",Table2:"cl-v1-d3-nt-ftt",task_name:"Lab Visit 1 Day 4 Neurocog Testing - FTT (6 mins)"},
-        "cl-v1-d4-nt-ftt-form":		            {url:"$H/m/neurocog/finger-tapping6-after-form.html",Table:"cl-v1-d4-nt-ftt",task_name:"FFT (6 mins"},
+        "cl-v1-d4-nt-ftt-data":		            {url:"$H/m/neurocog/finger-tapping6-after-data.html",Table:"cl-v1-d4-nt-ftt",form_module:"cl-v1-d4-nt-ftt-form",task_name:"Lab Visit 1 Day 4 Neurocog Testing - FTT (6 mins)"},
+        "cl-v1-d4-nt-ftt-form":		            {url:"$H/m/neurocog/finger-tapping6-after-form.html",Table:"cl-v1-d4-nt-ftt",Table2:"cl-v1-d3-nt-ftt",task_name:"FFT (6 mins"},
 
         "cl-v2-d1-t1-kss-data":		            {url:"$H/m/library/kss-data.html",Table:"cl-v2-d1-t1-kss",form_module:"cl-v2-d1-t1-kss-form",task_name:"Lab Visit 2 Day 1 - KSS 1"},
         "cl-v2-d1-t1-kss-form":		            {url:"$H/m/library/kss-form.html",Table:"cl-v2-d1-t1-kss",task_name:"KSS 1"},
@@ -442,8 +442,8 @@
         "cl-v2-d4-hads-data":		                {url:"$H/m/library/hads-data.html",Table:"cl-v2-d4-hads",form_module:"cl-v2-d4-hads-form",task_name:"Lab Visit 2 Day 4 - HADS"},
         "cl-v2-d4-hads-form":		                {url:"$H/m/library/hads-form.html",Table:"cl-v2-d4-hads",task_name:"HADS"},
 
-        "cl-v2-d4-nt-ftt-data":		            {url:"$H/m/neurocog/finger-tapping6-after-data.html",Table:"cl-v2-d4-nt-ftt",form_module:"cl-v2-d4-nt-ftt-form",Table2:"cl-v2-d3-nt-ftt",task_name:"Lab Visit 2 Day 4 Neurocog Testing - FTT (6 mins)"},
-        "cl-v2-d4-nt-ftt-form":		            {url:"$H/m/neurocog/finger-tapping6-after-form.html",Table:"cl-v2-d4-nt-ftt",task_name:"FFT (6 mins)"},
+        "cl-v2-d4-nt-ftt-data":		            {url:"$H/m/neurocog/finger-tapping6-after-data.html",Table:"cl-v2-d4-nt-ftt",form_module:"cl-v2-d4-nt-ftt-form",task_name:"Lab Visit 2 Day 4 Neurocog Testing - FTT (6 mins)"},
+        "cl-v2-d4-nt-ftt-form":		            {url:"$H/m/neurocog/finger-tapping6-after-form.html",Table:"cl-v2-d4-nt-ftt",Table2:"cl-v2-d3-nt-ftt",task_name:"FFT (6 mins)"},
 
         "word-pairs-set1-evening":	    {url:"$H/m/word-pairs/set1-evening.html"},
         "word-pairs-set2-evening":	    {url:"$H/m/word-pairs/set2-evening.html"},
