@@ -61,6 +61,17 @@
 					</div>
 				</div>
 
+				<div class='row row__ID'>
+					<div class="col-sm col-lg-6">
+						<span>Progress</span>
+						<select class=form-control name=Progress>
+							<option value=''>---</option>
+							<option>Completed</option>
+							<option>Not-Commenced</option>
+							<option>Dropped Out</option>
+						</select>
+					</div>
+				</div>
 				<br>
 				<div class="row">
 					<div class=col>
@@ -109,6 +120,10 @@
 			//-------------------------------------
 			m.before_submit=function(data,index){
 				var I1=$('#F__ID input[name=Randomisation_Number').val();	if(I1!='' && I1!='-') index.I1=parseInt(I1);
+				if($('#F__ID select[name=Progress').val()=="") index.I2=1;
+				if($('#F__ID select[name=Progress').val()=="Not-Commenced") index.I2=2;
+				if($('#F__ID select[name=Progress').val()=="Dropped Out") index.I2=3;
+				if($('#F__ID select[name=Progress').val()=="Completed") index.I2=4;
 			}
 			//-------------------------------------
 		}

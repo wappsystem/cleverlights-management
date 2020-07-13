@@ -12,6 +12,15 @@
                                             online_questionnaire:"online-questionnaire-app-cleverlights",
                                             participant_id:{field1:"Subject_ID",field2:"Subject_Initials"}
                                         },
+        "participant-active-data":   		{url:"$H/m/participant/participant-data.html",Table:"cleverlights-participant",form_module:"participant-form",router:1,
+                                        child_panel1:"panel-child1",
+                                        child_panel2:"panel-child2",
+                                        questionnaire_setup:"online-questionnaire-setup-cleverlights",
+                                        online_questionnaire:"online-questionnaire-app-cleverlights",
+                                        participant_id:{field1:"Subject_ID",field2:"Subject_Initials"},
+                                        query_a:{I2:{"$lt":3}} 
+                                    },
+                                    
         "participant-form":   		{url:"$H/m/participant/participant-form.html",Table:"cleverlights-participant"},
 
         "online-questionnaire-setup-cleverlights": 	{url:"$H/m/oq-setup.html",Table:"cleverlights-participant"},
