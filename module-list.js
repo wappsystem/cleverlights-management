@@ -18,7 +18,7 @@
                                         questionnaire_setup:"online-questionnaire-setup-cleverlights",
                                         online_questionnaire:"online-questionnaire-app-cleverlights",
                                         participant_id:{field1:"Subject_ID",field2:"Subject_Initials"},
-                                        query_a:{I2:{"$lt":3}} 
+                                        query_a:{I2:{"$lt":2}} 
                                     },
                                     
         "participant-form":   		{url:"$H/m/participant/participant-form.html",Table:"cleverlights-participant"},
