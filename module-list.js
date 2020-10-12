@@ -4,6 +4,14 @@
         "panel-main2":    			{url:"$H/m/panel-main2.html",router:1},
         "panel-child1":    			{url:"$H/m/panel-child1.html"},
         "panel-child2":    			{url:"$H/m/panel-child2.html"},
+        "panel-export-part1":       {url:"$H/m/panel-export-part1.html",router:1},
+        "panel-export-screening":   {url:"$H/m/panel-export-screened.html",router:1},
+        "panel-export-v1-enrolled":    {url:"$H/m/panel-export-v1-enrolled.html",router:1},
+        "panel-export-v2-enrolled":    {url:"$H/m/panel-export-v2-enrolled.html",router:1},
+        "panel-export-bl-enrolled":    {url:"$H/m/panel-export-bl-enrolled.html",router:1},
+        "export-data-cleverlights": {url:"$H/m/export-data.html",Table:"cleverlights-export",form_module:"export-form-cleverlights"},
+        "export-form-cleverlights": {url:"$H/m/export-form.html",Table:"cleverlights-export"},
+
         
         "participant-data":   		{url:"$H/m/participant/participant-data.html",Table:"cleverlights-participant",form_module:"participant-form",router:1,
                                             child_panel1:"panel-child1",

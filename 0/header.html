@@ -11,6 +11,16 @@
             <a href="?/home"><i class="fa fa-home"></i> Home</a>
             <a href="?/panel-main1">Dashboard Part 1</a>
             <a href="?/panel-main2">Dashboard Part 2</a>
+            <div class="vm-dropdown">
+                <span class="vm-dropbtn">Export <i class="fa fa-caret-down"></i></span>
+                <div class="vm-dropdown-content">
+                    <a href="?/panel-export-part1">Export Part 1</a>
+                    <a href="?/panel-export-screening">Export Part 2 Screened</a>
+                    <a href="?/panel-export-bl-enrolled">Export Part 2 Baseline Enrolled</a>
+                    <a href="?/panel-export-v1-enrolled">Export Part 2 Visit 1 Enrolled</a>
+                    <a href="?/panel-export-v2-enrolled">Export Part 2 Visit 2 Enrolled</a>
+                </div>
+            </div>
             <!--<a href="https://backoffice.wappsystem.com.au">Backoffice</a>-->
             <a id=vm_signin onclick="$vm.signin();"><i class="fa fa-user"></i> Sign In</a>
             <a class=vm-hide id=vm_signout onclick=$vm.signout()><i class="fa fa-user"></i> Sign Out</a>
@@ -197,7 +207,7 @@
             display:none;
         }
         #header{ background-image: url(__CURRENT_PATH__/../../images/desktop_banner.png);
-            opacity: 0.8;}
+            opacity: 1;}
 
         /*----------------------*/
         @media screen and (max-width: 1200px) {
