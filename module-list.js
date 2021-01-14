@@ -49,6 +49,10 @@
         "cl-medical-history-form":                {url:"$H/m/library/medical-history-form.html",Table:"cl-medical-history"},
         "cl-eligibility-confirmation-data":                {url:"$H/m/library/eligibility-confirmation-data.html",Table:"cl-eligibility-confirmation",form_module:"cl-eligibility-confirmation-form",task_name:"Eligibility Confirmation"},
         "cl-eligibility-confirmation-form":                {url:"$H/m/library/eligibility-confirmation-form.html",Table:"cl-eligibility-confirmation"},
+        "cl-covid-19-data":                {url:"$H/m/library/upload-file-data.html",Table:"cl-covid-19",form_module:"cl-covid-19-form",task_name:"Covid-19 Screening"},
+        "cl-covid-19-form":                {url:"$H/m/library/upload-file-form.html",Table:"cl-covid-19"},
+        "cl-file-notes-data":                {url:"$H/m/library/file-notes-data.html",Table:"cl-file-notes",form_module:"cl-file-notes-form",task_name:"File Notes"},
+        "cl-file-notes-form":                {url:"$H/m/library/file-notes-form.html",Table:"cl-file-notes"},
 
         "cl-p1-eligibility-confirmation-part1-data":		            {url:"$H/m/library/eligibility-confirmation-part1-data.html",Table:"cl-p1-eligibility-confirmation-part1",form_module:"cl-p1-eligibility-confirmation-part1-form",task_name:"Part 1 - Eligibility Confirmation"},
         "cl-p1-eligibility-confirmation-part1-form":		            {url:"$H/m/library/eligibility-confirmation-part1-form.html",Table:"cl-p1-eligibility-confirmation-part1",task_name:"Eligibility Confirmation"},
@@ -477,6 +481,8 @@
         "cl-v2-d3-sleep-scoring-form":		    {url:"$H/m/library/upload-file-form.html",Table:"cl-v2-d3-sleep-scoring",task_name:"PSG - Sleep Scoring"},
         "cl-v2-d3-edf-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-v2-d3-edf",form_module:"cl-v2-d3-edf-form",task_name:"Lab Visit 2 Day 3 HdEEG - PSG - EDF"},
         "cl-v2-d3-edf-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-v2-d3-edf",task_name:"PSG - EDF"},
+        "cl-v2-d3-geoscan-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-v2-d3-geoscan",form_module:"cl-v2-d3-geoscan-form",task_name:"Lab Visit 1 General Geo Scan"},
+        "cl-v2-d3-geoscan-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-v2-d3-geoscan",task_name:"Geo Scan"},
 
         "cl-v1-d3-temperature-data":		    {url:"$H/m/library/temperature-data.html",Table:"cl-v1-d3-temperature",form_module:"cl-v1-d3-temperature-form",task_name:"Lab Visit 1 Day 3 HdEEG - Temperature"},
         "cl-v1-d3-temperature-form":		    {url:"$H/m/library/temperature-form.html",Table:"cl-v1-d3-temperature",task_name:"Temperature"},
@@ -488,6 +494,8 @@
         "cl-v1-d3-sleep-scoring-form":		    {url:"$H/m/library/upload-file-form.html",Table:"cl-v1-d3-sleep-scoring",task_name:"PSG - Sleep Scoring"},
         "cl-v1-d3-edf-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-v1-d3-edf",form_module:"cl-v1-d3-edf-form",task_name:"Lab Visit 1 Day 3 HdEEG - PSG - EDF"},
         "cl-v1-d3-edf-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-v1-d3-edf",task_name:"PSG - EDF"},
+        "cl-v1-d3-geoscan-data":		            {url:"$H/m/library/upload-file-data.html",Table:"cl-v1-d3-geoscan",form_module:"cl-v1-d3-geoscan-form",task_name:"Lab Visit 1 General Geo Scan"},
+        "cl-v1-d3-geoscan-form":		            {url:"$H/m/library/upload-file-form.html",Table:"cl-v1-d3-geoscan",task_name:"Geo Scan"},
 
         "cl-v1-d1-t1-nt-wp-data":		        {url:"$H/m/library/word-pair-task-paperwork-data.html",Table:"cl-v1-d1-t1-nt-wp",form_module:"cl-v1-d1-t1-nt-wp-form",task_name:"Lab Visit 1 Day 1 Trial 1 Word Pair - Data entry"},
         "cl-v1-d1-t1-nt-wp-form":		        {url:"$H/m/library/word-pair-task-paperwork-form.html",Table:"cl-v1-d1-t1-nt-wp",task_name:"Word Pair Trial 1 - Data entry"},
