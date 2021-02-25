@@ -294,7 +294,7 @@
         "cl-v1-d3-ntm-stroop-text-data":		    {url:"$H/m/neurocog/stroop-text-data.html",Table:"cl-v1-d3-ntm-stroop-text",form_module:"cl-v1-d3-ntm-stroop-text-form",task_name:"Lab Visit 1 Day 3 Neurocog - Morning - Stroop Text"},
         "cl-v1-d3-ntm-stroop-text-form":		    {url:"$H/m/neurocog/stroop-text-form.html",Table:"cl-v1-d3-ntm-stroop-text",task_name:"Stroop Text"},
         "cl-v1-d3-ntm-stroop-colour-data":		{url:"$H/m/neurocog/stroop-colour-data.html",Table:"cl-v1-d3-ntm-stroop-colour",form_module:"cl-v1-d3-ntm-stroop-colour-form",task_name:"Lab Visit 1 Day 3 Neurocog - Morning - Stroop Colour"},
-        "cl-v1-d3-ntm-stroop-colour-form":		{url:"$H/m/neurocog/stroop-colour-form.html",Table:"cl-v2-d3-ntm-stroop-colour",task_name:"Stroop Colour"},
+        "cl-v1-d3-ntm-stroop-colour-form":		{url:"$H/m/neurocog/stroop-colour-form.html",Table:"cl-v1-d3-ntm-stroop-colour",task_name:"Stroop Colour"},
 
         "cl-v1-d3-nt-bsrt2-data":		        {url:"$H/m/library/bsrt-data.html",Table:"cl-v1-d3-nt-bsrt",form_module:"cl-v1-d3-nt-bsrt2-form",task_name:"Lab Visit 1 Day 3 Neurocog Testing - Afternoon - BSRT Set 2"},
         "cl-v1-d3-nt-bsrt2-form":		        {url:"$H/m/library/bsrt2-form.html",Table:"cl-v1-d3-nt-bsrt"},
